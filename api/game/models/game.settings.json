@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "games",
   "info": {
-    "name": "game"
+    "name": "game",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -44,7 +45,7 @@
         "FREE",
         "pegi3",
         "pegi7",
-        "pegi12",
+        "pqgi12",
         "pegi16",
         "pegi18"
       ]
@@ -56,7 +57,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "gallery": {
       "collection": "file",
@@ -65,7 +67,27 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
+    },
+    "categories": {
+      "collection": "category",
+      "via": "games",
+      "dominant": true
+    },
+    "developers": {
+      "collection": "developer",
+      "via": "games",
+      "dominant": true
+    },
+    "platforms": {
+      "collection": "platform",
+      "via": "games",
+      "dominant": true
+    },
+    "publisher": {
+      "model": "publisher",
+      "via": "games"
     }
   }
 }
