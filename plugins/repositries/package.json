@@ -1,11 +1,11 @@
 {
   "name": "strapi-plugin-repositries",
   "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "description": "A list of our repositories in React Avançado course.",
   "strapi": {
-    "name": "repositries",
-    "icon": "plug",
-    "description": "Description of repositries plugin."
+    "name": "Repositries",
+    "icon": "code",
+    "description": "A list of our repositories in React Avançado course."
   },
   "dependencies": {},
   "author": {
