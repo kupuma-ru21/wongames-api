@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "repositries.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
